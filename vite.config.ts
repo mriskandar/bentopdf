@@ -507,6 +507,7 @@ export default defineConfig(() => {
           },
         },
         deleteOriginFile: false,
+        disable: true,
       }),
       viteCompression({
         algorithm: 'gzip',
@@ -516,6 +517,7 @@ export default defineConfig(() => {
           level: 9,
         },
         deleteOriginFile: false,
+        disable: true,
       }),
     ],
     define: {
