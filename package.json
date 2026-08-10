@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "SIMPLE_MODE=true tsc && vite build",
+    "build": "SIMPLE_MODE=true tsc && SIMPLE_MODE=true vite build",
     "seo-audit": "node scripts/seo-audit.mjs",
     "build:with-docs": "npm run build && npm run docs:build && node scripts/include-docs-in-dist.js",
     "build:gzip": "COMPRESSION_MODE=g npm run build",
